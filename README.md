@@ -1,4 +1,4 @@
-# markmesh-com
+# MarkMesh
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-markmesh-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://markmesh.com/
+MarkMesh provides a unified trademark search and monitoring platform. It aggregates worldwide trademark registers into a single searchable index, allowing law firms, in‑house brand teams, and data partners to query, monitor, and build applications on trademark data. The service offers free search, paid monitoring, and an API for integration with AI agents and other tools.
+
+**Areas:** Trademark Search · Portfolio Monitoring · API · Law Firm Tools
+
+## MarkMesh on APIs.io
+
+Everything profiled for MarkMesh is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/markmesh-com/](https://apis.io/providers/markmesh-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [MarkMesh Clients API](https://apis.io/apis/markmesh-com/markmesh-com-clients-api/) — Trademark holders — the parties on whose behalf marks are filed. Clients are the customer-org's own contact records (name, address, contact details).…
+- [MarkMesh Filing watches API](https://apis.io/apis/markmesh-com/markmesh-com-filing-watches-api/) — Per-filing status-change subscriptions. When the office reports a phase change, registration, refusal, opposition, or renewal-related event, the watch's…
+- [MarkMesh Filings API](https://apis.io/apis/markmesh-com/markmesh-com-filings-api/) — Filings of a trademark with an office, plus per-class and per-event detail. Office is the source of truth — phase is mirrored, never customer-driven.
+- [MarkMesh Membership API](https://apis.io/apis/markmesh-com/markmesh-com-membership-api/) — Read-only listing of the team members on your organisation. Each row exposes the member's role (admin / member), their join date, and basic identity info…
+- [MarkMesh Organisation API](https://apis.io/apis/markmesh-com/markmesh-com-organisation-api/) — Your own organisation row. Retrieve its metadata, update settings, close the workspace, or read its activity feed. The API key resolves the target — there…
+- [MarkMesh Other API](https://apis.io/apis/markmesh-com/markmesh-com-other-api/) — The Other API from MarkMesh — 7 operation(s) for other.
+- [MarkMesh Partner API](https://apis.io/apis/markmesh-com/markmesh-com-partner-api/) — B2B2B surface for partner organisations that manage other organisations' workspaces ("managed-orgs") on their behalf. **Reads** live under this tag: list…
+- [MarkMesh Reference API](https://apis.io/apis/markmesh-com/markmesh-com-reference-api/) — Read-only lookup data curated by MarkMesh: Nice Classification classes (goods/services taxonomy), Vienna Codification codes (figurative element taxonomy),…
+- [MarkMesh Search API](https://apis.io/apis/markmesh-com/markmesh-com-search-api/) — Cross-office trademark search — fans out across USPTO, EUIPO, DPMA, ... in one call. Usual entry point into the domain workflow.
+- [MarkMesh System API](https://apis.io/apis/markmesh-com/markmesh-com-system-api/) — Liveness check and API-key introspection. Both endpoints are integration-readiness staples: `GET /v1/health` for uptime monitoring, `GET /v1/introspect` to…
+- [MarkMesh Trademarks API](https://apis.io/apis/markmesh-com/markmesh-com-trademarks-api/) — The trademark records themselves and their optional grouping into portfolios. Trademarks belong to a client and carry one or more filings across…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [MarkMesh Agentic Access](https://apis.io/agentic-access/markmesh-com/markmesh-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [activity](https://apis.io/schemas/markmesh-com/markmesh-com-activity/)
+- [client](https://apis.io/schemas/markmesh-com/markmesh-com-client/)
+- [filing](https://apis.io/schemas/markmesh-com/markmesh-com-filing/)
+- [office](https://apis.io/schemas/markmesh-com/markmesh-com-office/)
+- [organization](https://apis.io/schemas/markmesh-com/markmesh-com-organization/)
+- [trademark](https://apis.io/schemas/markmesh-com/markmesh-com-trademark/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Markmesh Com Context](https://apis.io/jsonld/markmesh-com/markmesh-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MarkMesh API Rules](https://apis.io/rules/markmesh-com/markmesh-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [MarkMesh Authentication](https://apis.io/security/markmesh-com/markmesh-com-authentication/)
+- [MarkMesh Domain Security](https://apis.io/security/markmesh-com/markmesh-com-domain-security/)
+- [MarkMesh Vulnerability Disclosure](https://apis.io/security/markmesh-com/markmesh-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [MarkMesh Plans Pricing](https://apis.io/plans/markmesh-com/markmesh-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://markmesh.com/)
+- [API reference](https://markmesh.com/api/docs)
+- [Pricing](https://markmesh.com/pricing)
+- [Blog](https://markmesh.com/blog)
+- [Security](https://markmesh.com/security)
+- [Terms of service](https://markmesh.com/terms)
+- [Privacy policy](https://markmesh.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.2** — developing · rubric 0.27.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 60.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 21.4 |
+| Access clarity | 60.0 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/markmesh-com/](https://apis.io/providers/markmesh-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MarkMesh: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/markmesh-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
